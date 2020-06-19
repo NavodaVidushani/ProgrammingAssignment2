@@ -1,7 +1,7 @@
 ## Here I set the input 'x' as a matrix and after set the solved value 'a' as a null
 ## Next I changed each and every reference to mean to solve
 
-makeCacheMatrix <- function(x = matrix(sample(100:200,9),3,3)) {
+makeCacheMatrix <- function(x = matrix()) {
   a<- NULL
   set<- function(y)
   {
